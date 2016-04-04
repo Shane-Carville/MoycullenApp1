@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="MoycullenApp1.Dooleys"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MoycullenApp1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="ForestGreen">
+        <TextBlock x:Name="txtDesDool" FontSize="25" HorizontalAlignment="Left" Margin="31,35,0,0" TextWrapping="Wrap" Text="Dooley's has had quite a few owners and even more name changes, but don't let that fool you it's a small pub with a great atmosphere. It has a large beer garden out the back and a smaller one out the front with a view of the main moycullen road for all you people watchers out there. So go right in you won't regret it" VerticalAlignment="Top" Width="356" Height="338"/>
+        <TextBlock x:Name="txtPhoneDool" FontSize="25" HorizontalAlignment="Left" Margin="31,417,0,0" TextWrapping="Wrap" Text="Phone Number - 091463745" VerticalAlignment="Top" Width="356" Height="36"/>
+        <TextBlock x:Name="txtEmailDool" FontSize="25" HorizontalAlignment="Left" Margin="31,458,0,0" TextWrapping="Wrap" Text="Email - Dooleys@gmail.com" VerticalAlignment="Top" Width="356" Height="53"/>
+        <Button x:Name="butDoolGPS" FontSize="25" Content="Locate us" HorizontalAlignment="Left" Margin="584,646,0,0" VerticalAlignment="Top" Height="67" Width="205" Click="button_Click"/>
+        <Image x:Name="DoolPic" HorizontalAlignment="Left" Height="335" Margin="607,98,0,0" VerticalAlignment="Top" Width="646" Source="Assets/Dooleys.jpg" Stretch="Fill"/>
+        <Button x:Name="butMainDool" Content="Main Menu" FontSize="15" HorizontalAlignment="Left" Margin="172,624,0,0" VerticalAlignment="Top" Height="57" Width="113" Click="butMainDool_Click"/>
+        <Button x:Name="butBackDool" Content="Back" FontSize="20" HorizontalAlignment="Left" Margin="28,624,0,0" VerticalAlignment="Top" Height="57" Width="113" Click="butBackDool_Click"/>
+
+
+    </Grid>
+</Page>

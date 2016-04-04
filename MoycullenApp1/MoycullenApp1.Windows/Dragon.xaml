@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="MoycullenApp1.Dragon"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MoycullenApp1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="ForestGreen">
+        <Border BorderBrush="White" BorderThickness="5" HorizontalAlignment="Left" Height="100" Margin="517,93,0,0" VerticalAlignment="Top" Width="327"/>
+        <TextBlock x:Name="txtTitleDragon" FontSize="40" HorizontalAlignment="Left" Margin="545,113,0,0" TextWrapping="Wrap" Text="Golden Dragon" VerticalAlignment="Top" Width="281" Height="53"/>
+        <Image x:Name="imgDragon" HorizontalAlignment="Left" Height="252" Margin="973,43,0,0" VerticalAlignment="Top" Width="292" Source="Assets/GoldenDragon2.jpg" Stretch="Fill"/>
+        <Button x:Name="butMainDrag" FontFamily="15" Content="Main Menu" HorizontalAlignment="Left" Margin="44,656,0,0" VerticalAlignment="Top" Height="63" Width="118" Click="butMainDrag_Click"/>
+        <Button x:Name="butBackDrag" FontSize="20" Content="Back" HorizontalAlignment="Left" Margin="44,571,0,0" VerticalAlignment="Top" Height="63" Width="118" Click="butBackDrag_Click"/>
+        <TextBlock x:Name="txtDesDragon" FontSize="25" HorizontalAlignment="Left" Margin="84,83,0,0" TextWrapping="Wrap" Text="The golden Dragon is a traditional chinese resturant. With the perfect mix of sweet and sour, be it a takeaway or a nice sit down meal. The golden Dragon is always a great stop" VerticalAlignment="Top" Width="304" Height="241"/>
+        <TextBlock x:Name="txtPhoneDrag" FontSize="20" HorizontalAlignment="Left" Margin="463,314,0,0" TextWrapping="Wrap" Text="Phone Number - 091235674" VerticalAlignment="Top" Width="343" Height="36"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="300" Margin="659,416,0,0" VerticalAlignment="Top" Width="585" Source="Assets/DragonFood.jpg" Stretch="Fill"/>
+
+    </Grid>
+</Page>

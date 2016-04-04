@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="MoycullenApp1.Pubs"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MoycullenApp1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="ForestGreen">
+        <Button x:Name="butForge" FontSize="20"  Content="The Forge" HorizontalAlignment="Left" Margin="1064,488,0,0" VerticalAlignment="Top" Height="83" Width="143" Click="butForge_Click"/>
+        <Button x:Name="butRegans" FontSize="20" Content="Regan's" HorizontalAlignment="Left" Margin="131,488,0,0" VerticalAlignment="Top" Height="83" Width="157" Click="butRegans_Click"/>
+        <Button x:Name="butDooleys" FontSize="20" Content="Dooley's" HorizontalAlignment="Left" Margin="611,488,0,0" VerticalAlignment="Top" Height="83" Width="151" Click="butDooleys_Click"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="126" Margin="421,72,0,0" VerticalAlignment="Top" Width="535" Source="Assets/Beer Here.jpg" Stretch="Fill"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="526,283,0,0" TextWrapping="Wrap" Text="Moycullen has three bars please select one to find out more about it!" FontSize="20" VerticalAlignment="Top" Width="308" Height="82"/>
+        <Button x:Name="butBackPub" FontSize="20" Content="Back" HorizontalAlignment="Left" Margin="1259,33,0,0" VerticalAlignment="Top" Height="60" Width="100" Click="butBackPub_Click"/>
+        <TextBlock x:Name="txtTitlePubs" FontSize="60" HorizontalAlignment="Left" Margin="88.933,168.026,0,0" TextWrapping="Wrap" Text="Pubs" VerticalAlignment="Top" Width="200" Height="82" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="-29.055"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+
+    </Grid>
+</Page>

@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="MoycullenApp1.Gym"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MoycullenApp1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="ForestGreen">
+        <Button x:Name="butCycBack" FontSize="20" Content="Back" HorizontalAlignment="Left" Margin="50,568,0,0" VerticalAlignment="Top" Height="65" Width="112" Click="butCycBack_Click"/>
+        <Button x:Name="butCycMain" FontSize="15" Content="Main Menu" HorizontalAlignment="Left" Margin="50,657,0,0" VerticalAlignment="Top" Height="65" Width="112" Click="butCycMain_Click"/>
+        <TextBlock x:Name="txtCycTitle" FontSize="40" HorizontalAlignment="Left" Margin="499,66,0,0" TextWrapping="Wrap" Text="Cycling and Walking" VerticalAlignment="Top" Width="371" Height="86"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="315" Margin="944,236,0,0" VerticalAlignment="Top" Width="317" Source="Assets/more_moycullen.jpg" Stretch="Fill"/>
+        <TextBlock x:Name="txtCycDec1" FontSize="20" HorizontalAlignment="Left" Margin="90,121,0,0" TextWrapping="Wrap" Text="Moycullen has had a bit of renovation recentely with the road running through the village having been resurfaced but the plus side of this is the beautiful promanade that the village now has perfect for walking or running enthusiests." VerticalAlignment="Top" Width="198" Height="299"/>
+        <TextBlock x:Name="txtCycdec2" FontSize="20" HorizontalAlignment="Left" Margin="538,430,0,0" TextWrapping="Wrap" Text="As of cycling Moycullen links many great cycling routes. The mountian road for the brave. the Clifden road for those who enjoy a view and the Tullykyne road for the speed demons out there. So get out there and get on yer bike." VerticalAlignment="Top" Height="227" Width="240"/>
+
+    </Grid>
+</Page>

@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="MoycullenApp1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MoycullenApp1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="ForestGreen">
+        <Button x:Name="butPubs" FontSize="20" Content="Pubs" HorizontalAlignment="Left" Margin="173,336,0,0" VerticalAlignment="Top" Height="55" Width="131" Click="butPubs_Click"/>
+        <Button x:Name="butRes" FontSize="20" Content="Resturants" HorizontalAlignment="Left" Margin="621,336,0,0" VerticalAlignment="Top" Height="55" Width="131" Click="butRes_Click"/>
+        <Button x:Name="butPic" FontSize="20" Content="Pictures" HorizontalAlignment="Left" Margin="361,548,0,0" VerticalAlignment="Top" Height="55" Width="131" Click="butPic_Click"/>
+        <Button x:Name="butInfo" FontSize="20" Content="Info" HorizontalAlignment="Left" Margin="851,548,0,0" VerticalAlignment="Top" Height="55" Width="131" Click="butInfo_Click"/>
+        <Button x:Name="butAct" FontSize="20" Content="Activities" HorizontalAlignment="Left" Margin="1037,336,0,0" VerticalAlignment="Top" Height="55" Width="135" Click="butAct_Click"/>
+        <TextBlock x:Name="txtHeading" TextAlignment="Center" FontSize="40" HorizontalAlignment="Left" Margin="540,76,0,0" TextWrapping="Wrap" Text="Moycullen Tourist Application" VerticalAlignment="Top" Width="297" Height="150"/>
+        <Border BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="193" Margin="558,56,0,0" VerticalAlignment="Top" Width="263"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="173" Margin="115,53,0,0" VerticalAlignment="Top" Width="186" Source="Assets/MC GAA.jpg"/>
+
+    </Grid>
+</Page>

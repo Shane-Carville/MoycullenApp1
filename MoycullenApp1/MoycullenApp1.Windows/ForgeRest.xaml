@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="MoycullenApp1.ForgeRest"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MoycullenApp1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="ForestGreen">
+        <Button x:Name="butForRestBack" FontSize="17" Content="Back" HorizontalAlignment="Left" Margin="62,659,0,0" VerticalAlignment="Top" Height="59" Width="120" Click="butForRestBack_Click"/>
+        <Button x:Name="butForRestMain" FontSize="16" Content="Main Menu" HorizontalAlignment="Left" Margin="62,574,0,0" VerticalAlignment="Top" Height="59" Width="120" Click="butForRestMain_Click"/>
+        <TextBlock x:Name="txtForgeRestDes" FontSize="20" HorizontalAlignment="Left" Margin="65,41,0,0" TextWrapping="Wrap" Text="The Forge may be a popular bar but it also serves some delicious food as well. Carverys on a sunday for the whole family. Steak cooked to your liking, it's got it all." VerticalAlignment="Top" Width="253" Height="198"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="325" Margin="898,10,0,0" VerticalAlignment="Top" Width="458" Source="Assets/Forged.jpg" Stretch="Fill"/>
+        <Image x:Name="image1" HorizontalAlignment="Left" Height="304" Margin="442,355,0,0" VerticalAlignment="Top" Width="490" Source="Assets/forgeFood.jpg" Stretch="Fill"/>
+        <Border BorderBrush="White" BorderThickness="5" HorizontalAlignment="Left" Height="100" Margin="544,111,0,0" VerticalAlignment="Top" Width="273"/>
+        <TextBlock x:Name="txtForTitle" FontSize="40" HorizontalAlignment="Left" Margin="586,132,0,0" TextWrapping="Wrap" Text="The Forge" VerticalAlignment="Top" Width="193" Height="53"/>
+
+    </Grid>
+</Page>

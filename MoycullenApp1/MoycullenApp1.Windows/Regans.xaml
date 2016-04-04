@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="MoycullenApp1.Regans"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MoycullenApp1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="ForestGreen">
+        <TextBlock x:Name="txtDesRegans" HorizontalAlignment="Left" Margin="1079,51,0,0" TextWrapping="Wrap" Text="If you are looking for your traditional irish pub look no further than Regans. A part of the village for over 50 years and still family run. Go inside and get a little history of moycullen from the regulars and have a bit of craic." FontSize="22" VerticalAlignment="Top" Width="247" Height="274"/>
+        <TextBlock x:Name="txtPhoneReagns" FontSize="20" HorizontalAlignment="Left" Margin="39,104,0,0" TextWrapping="Wrap" Text="Phone number - 091259836" VerticalAlignment="Top" Width="273" Height="44"/>
+        <TextBlock x:Name="txtTwitterRegans" FontSize="20" HorizontalAlignment="Left" Margin="39,51,0,0" TextWrapping="Wrap" Text="Follow them on twitter - @RegansPub" VerticalAlignment="Top" Width="371" Height="53"/>
+        <Image x:Name="imgRegans" HorizontalAlignment="Left" Height="375" Margin="513,32,0,0" VerticalAlignment="Top" Width="450" Source="Assets/regans.jpg" Stretch="Fill"/>
+        <Button x:Name="butLocateRegans" Content="Locate us" FontSize="20" HorizontalAlignment="Left" Margin="708,624,0,0" VerticalAlignment="Top" Height="55" Width="139"/>
+        <Button x:Name="butMainRegans" Content="Main Menu" FontSize="15" HorizontalAlignment="Left" Margin="172,624,0,0" VerticalAlignment="Top" Height="57" Width="113" Click="butMainDool_Click"/>
+        <Button x:Name="butBackRegans" Content="Back" FontSize="20" HorizontalAlignment="Left" Margin="28,624,0,0" VerticalAlignment="Top" Height="57" Width="113" Click="butBackDool_Click"/>
+    </Grid>
+</Page>

@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="MoycullenApp1.Activities"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MoycullenApp1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="ForestGreen">
+        <TextBlock x:Name="textBlock" FontSize="20" HorizontalAlignment="Left" Margin="473,201,0,0" TextWrapping="Wrap" Text="For a small village Moycullen has a large amount of activities from GAA to horseback riding. Find them all here if there is any that we have missed please send us an email and we will add it in" VerticalAlignment="Top" Height="114" Width="439"/>
+        <Button x:Name="butGaa" FontSize="20" Content="Moycullen GAA" HorizontalAlignment="Left" Margin="271,586,0,0" VerticalAlignment="Top" Height="78" Width="193" Click="butGaa_Click"/>
+        <Button x:Name="butGym" FontSize="20" Content="Gym" HorizontalAlignment="Left" Margin="271,407,0,0" VerticalAlignment="Top" Height="82" Width="193" Click="butGym_Click"/>
+        <Button x:Name="butWalk" FontSize="20" Content="Cycling and Walking" HorizontalAlignment="Left" Margin="908,407,0,0" VerticalAlignment="Top" Height="82" Width="234" Click="butWalk_Click"/>
+        <Button x:Name="butFarm" FontSize="20" Content="Farm Park" HorizontalAlignment="Left" Margin="908,586,0,0" VerticalAlignment="Top" Height="78" Width="234" Click="butFarm_Click"/>
+        <Button x:Name="butActBack" FontSize="20" Content="Back" HorizontalAlignment="Left" Margin="1220,56,0,0" VerticalAlignment="Top" Height="58" Width="109" Click="butActBack_Click"/>
+        <TextBlock x:Name="txtActTitle" FontSize="50" HorizontalAlignment="Left" Margin="50.935,117.761,0,0" TextWrapping="Wrap" Text="Activities" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="104.216" UseLayoutRounding="False" d:LayoutRounding="Auto" Width="317.489">
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="-25.21"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+
+    </Grid>
+</Page>
